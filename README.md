@@ -25,7 +25,7 @@ Once Docker is done installing we can confirm the correct version is running. In
 <div class="codehilite">
 
 <pre><span></span>$ docker --version
-Docker version <span class="m">19</span>.03.5, build 633a0ea
+Docker version 19.03.8, build afacb8b
 </pre>
 
 </div>
@@ -69,7 +69,7 @@ Make sure to `migrate` our database after these changes.
 
 If you now use the `python manage.py runserver` command you can see a working version of our application at [http://localhost:8000](http://localhost:8000).
 
-![Message Board Homepage](/static/images/tutorials/docker_postgresql/mb-homepage.png)
+![Message Board Homepage](https://learndjango.com/static/images/tutorials/docker_postgresql/mb-homepage.png)
 
 ## Docker part 2
 
